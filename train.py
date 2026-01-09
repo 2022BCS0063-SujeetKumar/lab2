@@ -9,6 +9,8 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 
 DATA_PATH = "data/winequality-red.csv"
+# It will check for output folder
+
 OUTPUT_DIR = "output"
 MODEL_PATH = os.path.join(OUTPUT_DIR, "model.pkl")
 RESULT_PATH = os.path.join(OUTPUT_DIR, "results.json")
